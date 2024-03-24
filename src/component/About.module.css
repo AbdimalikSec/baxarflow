@@ -1,0 +1,290 @@
+:root {
+  --clr-gold: #c59d5f;
+  --clr-black: #222;
+  --main-color: #339b67;
+  --secondry-color: #ffcb74;
+  --third-color: #2f2f2f;
+}
+
+.myjourney {
+  margin-top: 1rem;
+}
+
+.myjourney h1 {
+  font-size: 3rem;
+  text-align: center;
+  /* width: 20px; */
+  color: var(--main-color);
+}
+
+.containert {
+  width: 80%;
+  margin: auto;
+}
+
+.coloraboutme {
+  box-shadow: 0 20px 20px rgba(214, 212, 212, 0.877),
+    0px 0px 40px rgba(214, 212, 212, 0.808);
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 40%;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.coloraboutme h1 {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  z-index: 1;
+}
+
+.journeyhaye {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 5rem;
+  gap: 4rem;
+}
+
+.journeyhaye h4 {
+  font-size: 2rem;
+  border-bottom: 3px solid #717e34;
+  width: 10%;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  margin-top: 0;
+  color: var(--main-color);
+}
+
+.journey-title {
+  text-align: center;
+}
+
+.gadalcols {
+  background-color: #222;
+  width: 90%;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 9px 0px rgb(224, 231, 231);
+}
+
+.gadalcols p {
+  color: white;
+  line-height: 1.4;
+  font-size: 12px;
+  margin-bottom: 0.4rem;
+}
+
+.resume {
+  font-size: 1.8rem;
+  color: var(--main-color);
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+.resume:hover {
+  text-decoration: underline;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.gadalcols p {
+  font-size: 1.2rem;
+  line-height: 1.1;
+}
+
+.gadalcols h2 {
+  color: white;
+}
+
+.gulaha {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0.2rem;
+}
+
+.gulaha span {
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 10px;
+}
+
+.gulahayga h2 {
+  color: var(--main-color);
+}
+
+.gulaha p {
+  color: white;
+  font-weight: 600;
+  margin: 0.5rem;
+  white-space: nowrap;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.exporttitle h2 {
+  color: white;
+  font-size: 2.4rem;
+  margin-bottom: 1.3rem;
+  border-bottom: 4px solid var(--main-color);
+  width: 8%;
+  white-space: nowrap;
+}
+.do {
+  background-color: #222;
+  margin-bottom: 1.4rem;
+  padding: 14px;
+  border-radius: 9px;
+  box-shadow: 0 0 9px 0px rgb(224, 231, 231);
+}
+
+.do p {
+  color: white;
+}
+
+.do h3 {
+  color: var(--main-color);
+}
+
+.gadalimg h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: #b0cc32;
+}
+
+.gadalimg span {
+  color: #b98d1e;
+}
+
+.gadalimg img {
+  margin-left: 4.6rem;
+  border-radius: 10%;
+  width: 40%;
+}
+
+@media (max-width: 1200px) {
+  .journeyhaye {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .gadalcols {
+    width: 90%;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .textbox {
+    height: 95vh;
+  }
+  .gadalimg {
+    width: 55%;
+    height: 115%;
+  }
+  .export-title h2 {
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .dogrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    align-content: center;
+  }
+}
+
+@media (max-width: 450px) and (max-width: 600px) {
+
+  .myjourney h1{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--main-color);
+  }
+  .gadalcols {
+    width: 150%;
+    margin-left: 3.2rem;
+    font-size: 1.2rem;
+  }
+  .gadalcols p{
+    font-size: 2rem;
+  }
+  .journeyhaye {
+    width: 110%;
+    max-width: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin-top: 5rem;
+    gap: 4rem;
+    font-size: 1.8rem;
+  }
+  .wido{
+    margin-left: 7.1rem;
+    width: 115%;
+    margin-bottom: 1rem;
+  }
+  .coloraboutme {
+    box-shadow: 0 20px 20px rgba(214, 212, 212, 0.877),
+      0px 0px 40px rgba(214, 212, 212, 0.808);
+    width: 150%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    margin: auto;
+    margin-left: 2.5rem;
+    z-index: -1;
+    border-radius: 8px;
+  }
+  .myjourney h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin-left: 10rem;
+    white-space: nowrap;
+    margin-bottom: 0;
+    color: var(--main-color);
+  }
+}
+
+/*hoos testi*/
+
+.testimonial {
+  color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.item {
+  min-height: 30rem;
+  min-width: 33%;
+  padding: 40px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  pointer-events: none;
+}
+
+.inercar {
+  display: flex;
+  object-fit: contain;
+  background: #5c8f67;
+  border-radius: 2rem;
+}
+
+.car {
+  cursor: grab;
+  overflow: hidden;
+  background: #a9c431;
+}
