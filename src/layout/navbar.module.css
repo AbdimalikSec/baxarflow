@@ -1,8 +1,17 @@
+:root {
+  --main-color: #3A4E48;
+  --third-color: #2f2f2f;
+}
+
+
+
 .logo {
   width: 22%;
   height: 5%;
   font-size: 30px;
   padding: 1.5% 4%;
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 .flex {
@@ -28,11 +37,11 @@ nav ul li {
 nav ul li a {
   background-color: none;
   text-decoration: none;
-  color: black;
+  color: var(--main-color);
 }
 
 .bar {
-  color: black;
+  color: var(--main-color);
   display: none;
 }
 

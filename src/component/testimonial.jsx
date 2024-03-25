@@ -1,4 +1,4 @@
-import { saacid, two} from "../assets";
+import { whyme, two} from "../assets";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { navVariants, slideIn } from "../utilist/motion";
@@ -19,7 +19,7 @@ const Testimonial = () => {
             variants={slideIn("left", "tween", 0.8, 0.5)}
             initial="hidden"  
             whileInView="show"
-            src={saacid}
+            src={whyme}
             alt="Picture 1"
             className={selectedPicture === 0 ? "selected img1" : ""}
             onClick={() => handlePictureClick(0)}
@@ -37,7 +37,7 @@ const Testimonial = () => {
             variants={slideIn("left", "tween", 0.4, 0.5)}
             initial="hidden"
             whileInView="show"
-            src={saacid}
+            src={whyme}
             alt="Picture 3"
             className={selectedPicture === 2 ? "selected img3" : ""}
             onClick={() => handlePictureClick(2)}

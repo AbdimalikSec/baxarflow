@@ -1,4 +1,4 @@
-import Classes from "./work.module.css";
+
 import Navbar from "../layout/navbar";
 import { useEffect, useState } from "react";
 import AOS from "aos";

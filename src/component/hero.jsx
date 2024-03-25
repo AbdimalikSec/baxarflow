@@ -1,7 +1,7 @@
 /* eslint-disable */
 import { staggerContainer, textVariant } from "../utilist/motion";
 import { motion } from "framer-motion";
-import Classes from "./work.module.css";
+
 import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
@@ -11,7 +11,6 @@ const Hero = () => {
   }
   return (
     <>
-  
       <section className="textbox">
         <motion.div
           className="textcontent"
