@@ -9,7 +9,6 @@ import Footer from "./Footer";
 const Aboutitem = () => {
   return (
     <>
-      <Navbar />
       <section data-aos="fade-in" className={Classes.myjourney}>
         <h1>About me</h1>
         <div className={Classes.containert}>
@@ -37,41 +36,10 @@ const Aboutitem = () => {
                 Resume
               </a>
             </div>
-            <div className={Classes.wido}>
-              <div className={Classes.exporttitle}>
-                <h2>What i Cook</h2>
-              </div>
-              <motion.div className={Classes.dogrid}>
-                <motion.div className={Classes.do}>
-                  <h3>Application Developer</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Ratione eius assumenda numquam accusantium aliquam modi?
-                  </p>
-                </motion.div>
-                <motion.div className={Classes.do}>
-                  <h3>Web developer</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Ratione eius assumenda numquam accusantium aliquam modi?
-                  </p>
-                </motion.div>
-                <motion.div className={Classes.do}>
-                  <h3>Database</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Ratione eius assumenda numquam accusantium aliquam modi?
-                  </p>
-                </motion.div>
-              </motion.div>
-            </div>
+           {/* inta img kaga dhig */}
           </motion.div>
         </div>
       </section>
-      <div className="aboutfooter">
-        <Testimonial />
-      </div>
-      <Footer />
     </>
   );
 };

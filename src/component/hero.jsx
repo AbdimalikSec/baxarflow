@@ -25,7 +25,7 @@ const Hero = () => {
           <motion.p variants={textVariant(1.3)}>
             video editing, website creation, UI/UX design, movie poster design
           </motion.p>
-          <button onClick={handlenavigate}>Contact me</button>
+          <button className="Btn" onClick={handlenavigate}>Contact me</button>
         </motion.div>
       </section>
     </>

@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,200;1,300&display=swap");
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   --main-color: #94B0DA;
-  --third-color: #8F91A2;
+  --third-color: #1b204b;
 }
 
 /* --main-color: #339b67; */
@@ -83,10 +88,10 @@ nav ul li {
   text-wrap: wrap;
 }
 
-.textcontent button {
+.Btn {
   font-size: 1.4rem;
   background-color: #222;
-  padding: 1rem;
+  padding: 0.45rem 1rem;
   color: white;
   border-radius: 1.4rem;
   cursor: pointer;
@@ -353,7 +358,7 @@ nav ul li {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
+  background-color: #5c68ce;
   padding: 1.4rem;
   gap: 2rem;
   border-radius: 1rem;
@@ -402,18 +407,16 @@ textarea {
 }
 
 @media (max-width: 900px) {
-  .color {
-    background-color: var(--main-color);
-  }
+
   .contacthaye h1 {
     font-size: 3rem;
   }
   .contacts {
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-color: lightblue;
+    background-color: #5c68ce;
     padding: 1.4rem;
     gap: 2rem;
     border-radius: 1rem;
@@ -422,7 +425,7 @@ textarea {
 
 @media (min-width: 430px) and (max-width: 932px) {
   .contacts {
-    width: 110%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 2rem;
@@ -547,7 +550,7 @@ textarea {
 
 .portfolio-footer {
   position: static;
-  background-color: var(--third-color);
+  background-color: black;
   bottom: 0;
   width: 100%;
   padding: 10px;

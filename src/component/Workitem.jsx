@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import WhychooseMe from "./WhychooseMe";
 import Services from "./Services";
 import Testimonial from "./testimonial";
+import Aboutitem from './Aboutitem'
 
 const WorkItem = () => {
   const [isopen, setopen] = useState(null);
@@ -32,6 +33,7 @@ const WorkItem = () => {
       <Services />
 
       <WhychooseMe />
+    
       <Testimonial />
       <Footer />
     </>

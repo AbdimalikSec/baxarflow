@@ -30,6 +30,7 @@ const Contactitem = () => {
                 Message
               </textarea>
             </form>
+          <button className="Btn">Submit</button>
           </div>
         </div>
       </div>

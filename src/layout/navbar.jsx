@@ -32,11 +32,6 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className={Classes.singlelink}>
-                    About
-                  </Link>
-                </li>
-                <li>
                   <Link to="/contact" className={Classes.singlelink}>
                     Contact
                   </Link>
@@ -60,11 +55,6 @@ const Navbar = () => {
               <li>
                 <Link to="/" className={Classes.singlelink}>
                   Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className={Classes.singlelink}>
-                  About
                 </Link>
               </li>
               <li>
