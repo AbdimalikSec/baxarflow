@@ -11,9 +11,10 @@ const Hero = () => {
   }
   return (
     <>
-      <section className={Classes.textbox}>
+  
+      <section className="textbox">
         <motion.div
-          className={Classes.textcontent}
+          className="textcontent"
           variants={staggerContainer}
           initial="hidden"
           whileInView="show"

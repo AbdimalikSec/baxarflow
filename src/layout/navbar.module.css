@@ -6,10 +6,7 @@
 }
 
 .flex {
-/*   position: sticky;
-  top: 0;
-  z-index: 999999;
-  background-color: white; */
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -18,17 +15,6 @@
   margin-top: 1rem;
 }
 
-.navbar {
-  display: flex;
-}
-
-.navmenu {
-  margin-left: 35px;
-  height: 0;
-  overflow: hidden;
-  margin: auto;
-  transition: all 1s;
-}
 
 .clicked {
   height: 120px;
@@ -111,28 +97,26 @@ nav ul li a {
   display: none;
 }
 
-@media (max-width: 450px) and (max-width: 600px) {
+@media (max-width: 450px) and (max-width: 932px) {
+  .flex{
+    width: 200%;
+  }
   .bac {
     position: absolute;
     left: 0%;
     top: 0;
     background-color: #0a0f0afb;
-    width: 180%;
+    width: 212%;
     height: 100vh;
-  
     z-index: 1;
     transition: 10s ease-in;
+    color: white;
   }
   .times {
     font-size: 3rem;
     color: white;
     text-align: center;
     margin-top: 1rem;
-  }
-  .flex {
-    width: 153%;
-    color: white;
-    display: flex;
   }
   .bar {
     font-size: 3rem;

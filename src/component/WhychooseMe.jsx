@@ -1,7 +1,7 @@
 import React from "react";
 import { whyme } from "../assets/index";
 import { motion } from "framer-motion";
-import { slideIn } from "../utilist/motion";
+import { navVariants } from "../utilist/motion";
 
 const WhychooseMe = () => {
   return (
@@ -24,9 +24,10 @@ const WhychooseMe = () => {
         </div>
         <motion.div
           className="mecol"
-          variants={slideIn("right", "tween", 0.8, 0.8)}
+          variants={navVariants}
           initial="hidden"
           whileInView="show"
+          viewport={{ once: false, amount: 0.14 }}
         >
           <img src={whyme} alt="why choose me" />
         </motion.div>
