@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --main-color: #94B0DA;
-  --third-color: #1b204b;
-}
-
 /* --main-color: #339b67; */
 
 .gredient {
@@ -20,12 +15,15 @@
   margin-top: 0;
 }
 
-/* sma nft cpm sms*/
+
+/* sma nft cpm sms ABDF75, FED766*/
 
 body {
   width: 100%;
   height: auto;
   margin: 0;
+  --main-color: #06D6A0;
+  --third-color: #1b204b;
 }
 
 html {
@@ -407,7 +405,6 @@ textarea {
 }
 
 @media (max-width: 900px) {
-
   .contacthaye h1 {
     font-size: 3rem;
   }
