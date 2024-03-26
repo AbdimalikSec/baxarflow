@@ -21,9 +21,15 @@
 body {
   width: 100%;
   height: auto;
-  margin: 0;
-  --main-color: #06D6A0;
+  margin: auto;
+  --main-color: #38d1a8;
   --third-color: #1b204b;
+}
+
+
+.all{
+  width: 80%;
+  margin: auto;
 }
 
 html {
@@ -172,7 +178,7 @@ nav ul li {
 }
 
 .serviceCol img {
-  width: 80%;
+  width: 60%;
 }
 
 @media (max-width: 900px) {
@@ -356,7 +362,7 @@ nav ul li {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: #5c68ce;
+  
   padding: 1.4rem;
   gap: 2rem;
   border-radius: 1rem;
@@ -413,7 +419,7 @@ textarea {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-color: #5c68ce;
+  
     padding: 1.4rem;
     gap: 2rem;
     border-radius: 1rem;
@@ -437,6 +443,10 @@ textarea {
   color: var(--main-color);
   text-align: center;
   font-size: 3rem;
+}
+
+.que{
+  width: 10%;
 }
 
 .picture {
@@ -512,8 +522,8 @@ textarea {
   
   }
   .imgscontent{
-    width: 150%;
-    margin-top: 140%;
+    width: 300%;
+    margin-top: 190%;
     color: black;
     z-index: 999999;
   }
@@ -610,4 +620,8 @@ textarea {
     width: 100%;
     margin: auto;
   }
+}
+
+.testiTitle  .servicesHaye .whyme{
+  text-align: left;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { why, whyme } from "../assets/index";
+import { why, whyme,why2 } from "../assets/index";
 import { motion } from "framer-motion";
 import { navVariants } from "../utilist/motion";
 import { Link } from "react-router-dom";
@@ -37,7 +37,7 @@ const WhychooseMe = () => {
           whileInView="show"
           viewport={{ once: false, amount: 0.14 }}
         >
-          <img src={why} alt="why choose me" />
+          <img src={why2} alt="why choose me" />
         </motion.div>
       </div>
     </div>

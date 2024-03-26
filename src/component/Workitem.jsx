@@ -26,6 +26,7 @@ const WorkItem = () => {
 
   return (
     <>
+    <div className="all">
       <div className="gredient">
         <Navbar />
         <Hero />
@@ -35,6 +36,7 @@ const WorkItem = () => {
       <WhychooseMe />
     
       <Testimonial />
+    </div>
       <Footer />
     </>
   );
